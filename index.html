@@ -4,24 +4,68 @@
         <meta charset="UTF-8">
         <title> André Sprenger Graczyk | Desenvolvedor Full-Stack </title>
     </head>
+    
+    <style>
+       h1 {
+           text-align: center;
+           color: rgb(68, 92, 92);
+       }
+       body {
+        font-family: 'Montserrat', sans-serif;
+        background-color:mintcream;
+        color: rgb(38, 101, 131);
+       }
+       .tit {
+           text-align: center;
+       }
+       #img1 {
+           display: block;
+           margin-right: auto;
+           margin-left: auto;
+       }
+       .button {
+           padding: 15px 30px;
+           border-radius: 4px;
+       }
+       
+       .img2 {
+           border-radius: 10px;
+       }
+       .btn {
+           text-align: center;
+           display:block;
+       }
+      
+
+    </style>
+
+
+
     <body>
         <h1> André Sprenger Graczyk </h1>
-        <img src="/ImagemSite/andresite.jpeg" alt="Foto sorrindo" width="250px">
+        <img id="img1" src="/ImagemSite/andresite.jpeg" alt="Foto sorrindo" width="250px">
         <hr>
-        <h2> Desenvolvedor Júnior Full-Stack</h2>
+        
+        <h2 class="tit" id="prof"> Desenvolvedor Júnior Full-Stack</h2>
         <hr>
         <ul>
             <li> <a href="#quemsou"> QUEM SOU? </a> </li> <br>
             <li> <a href="#hab"> HABILIDADES </a> </li> <br>
             <li> <a href="#linkspref"> LINKS PREFERIDOS </a> </li> <br>
+            <li> <a href="#redesoc"> REDES SOCIAIS </a></li>
         </ul>
+        <hr>
         
         
         
-        <h2 id="quemsou"> Quem sou? </h2>
-        <p>Olá! Meu nome é André, tenho 21 anos e sou estudante de software na Trybe! Moro na cidade de Curitiba, no Paraná, e sou apaixonado por <strong> SURF, JIU JITSU e PROGRAMAÇÃO</strong></p>
+        <h2 class="tit" id="quemsou"> Quem sou? </h2>
+        
+        <p id="qmsou">Olá! Meu nome é André, tenho 21 anos e sou estudante de software na Trybe! Moro na cidade de Curitiba, no Paraná, e sou apaixonado por <strong> SURF, JIU JITSU e PROGRAMAÇÃO</strong></p>
         <hr> 
-        <h2 id="hab"> Habilidades </h2>
+        
+        
+        
+        <h2 class="tit" id="hab"> Habilidades </h2>
         <ul>
             <li> <strong> JavaScript </strong> </li>
             <li> <strong> CSS </strong> </li>
@@ -30,12 +74,29 @@
             <li> <strong> GitHub </strong> </li>
         </ul>
         <hr>
-        <h3 id="linkspref"> Links preferidos </h3>
+        
+        
+        
+        <h2 id="redesoc" class="tit"> Redes Sociais </h2>
+        
+        <div class="btn">
+        <a class="button" href="https://www.instagram.com/andregraczyk/" target="_blank"> <img src="https://logodownload.org/wp-content/uploads/2017/04/instagram-logo-6.png" alt="logo instagram" width="50px"></a>
+        
+        <a class="button" href="https://www.linkedin.com/in/andr%C3%A9-sprenger-graczyk/" target="_blank"> <img src="https://logospng.org/download/linkedin/logo-linkedin-1536.png" alt="logo linkedin" width="65px"></a>
+            </div>
+        <hr>
+             
+        
+        
+        <h2 class="tit" id="linkspref"> Links preferidos </h2>
         <ul>
-            <li> <a href="https://cs50.harvard.edu/" target="_blank" > THIS IS CS50! </a></li> <br>
-            <li> <a href="https://www.betrybe.com/" target="_blank"> Trybe! A melhor escola de programação! </a> </li> <br>
-            <li> <a href="https://www.acasafvt.com.br/" target="_blank" > Loja Família Vende Tudo </a> </li> <br>
-            <li> <a href="https://www.instagram.com/ativa_natacao/" target="_blank" > A melhor escola de natação de Curitiba! </a> </li> <br> 
+            <li> <a href="https://cs50.harvard.edu/" target="_blank" > THIS IS CS50! </a> <img class ="img2" src="https://media-exp1.licdn.com/dms/image/C4E0BAQGYjmmBCvqLmg/company-logo_200_200/0/1519878692497?e=1628726400&v=beta&t=cX6PRtp0E6poXnrB12o1lnkZ-tIGsxt6pKS48ia4GX4" alt="logo cs50" width="30px"></li> <br>
+            
+            <li> <a href="https://www.betrybe.com/" target="_blank"> Trybe! A melhor escola de programação! </a> <img class ="img2" src="https://theme.zdassets.com/theme_assets/9633455/9814df697eaf49815d7df109110815ff887b3457.png" alt="logo trybe" width="45px"> </li> <br>
+            
+            <li> <a href="https://www.acasafvt.com.br/" target="_blank" > Loja Família Vende Tudo </a> <img class ="img2" src="https://static.wixstatic.com/media/62b9e2_c0f9a9c19b0240fdbf7ef9eb1b9a22ce~mv2.jpg/v1/fill/w_59,h_59,al_c,q_80,usm_0.66_1.00_0.01/A%20CASA.webp" alt="logo a casa" width="40x"></li> <br>
+            
+            <li> <a href="https://www.instagram.com/ativa_natacao/" target="_blank" > A melhor escola de natação de Curitiba! </a> <img class="img2" src="/ImagemSite/ativa.jpeg" alt="logo ativa" width="40px"></li> <br> 
         </ul>
 
     </body>
